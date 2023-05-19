@@ -29,6 +29,15 @@ form {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.main-inputs {
+    width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
   gap: 16px;
 }
 
@@ -83,6 +92,30 @@ form .info-box input[type="submit"]:hover {
     color: #5863f8;
 }
 
+form input[type="checkbox"] {
+    width: 30px;
+    height: 30px;
+}
+
+form input[type="radio"] {
+    width: 30px;
+    height: 30px;
+}
+
+.checkboxes label {
+    font-size: 20px;
+    color: #5863f8;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.radios label {
+    font-size: 20px;
+    color: red;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
 footer {
     padding: 140px 62px;
     background-color: #1E1E1E;
@@ -95,6 +128,8 @@ footer {
     flex-wrap: wrap;
     gap: 40px;
 }
+
+
 
 footer p {
     width: 264px;

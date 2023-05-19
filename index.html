@@ -15,15 +15,51 @@
         <h2>Contact us to get free support</h2>
       </div>
       <form>
-        <textarea placeholder="Description"></textarea>
+        <div class="main-inputs">
+          <textarea placeholder="Description"></textarea>
 
-        <div class="info-box">
-          <input type="text" placeholder="Subject" />
-          <input type="text" placeholder="Name / Surname" />
-          <input type="email" placeholder="Email" />
-          <input type="submit" value="Send" />
+          <div class="info-box">
+            <input type="text" placeholder="Subject" />
+            <input type="text" placeholder="Name / Surname" />
+            <input type="email" placeholder="Email" />
+            <input type="submit" value="Send" />
+          </div>
+        </div>
+
+        <div class="checkboxes">
+          <input type="checkbox" value="Bike" name="bike" />
+          <label for="bike">My Bike</label>
+          <input type="checkbox" value="Car" name="car" />
+          <label for="car">My car</label>
+          <input type="checkbox" value="Scooter" name="scooter" />
+          <label for="scooter">My scooter</label>
+        </div>
+
+        <div class="radios">
+          <input type="radio" name="html" value="html" />
+          <label for="html">HTML</label>
+
+          <input type="radio" name="html" value="html" />
+          <label for="html">css</label>
+          <input type="radio" name="html" value="html" />
+          <label for="html">javascript</label>
         </div>
       </form>
+
+      <video
+        controls
+        loop
+        muted
+        width="400"
+        height="200"
+      >
+      <source src="https://www.w3schools.com/html/movie.mp4" type="video/mp4">
+    </video>
+
+
+    <audio  controls autoplay muted>
+        <source src="https://www.w3schools.com/html/horse.ogg" type="audio/ogg">
+    </audio>
     </section>
 
     <footer>
